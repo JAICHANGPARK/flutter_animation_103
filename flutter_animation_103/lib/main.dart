@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage>
                 },
                 child: Container(
                   height: 200.0,
-                  width: 200.0,
+                  width: 300.0,
                   child: Transform(
                     transform: Matrix4.identity()
                       ..setEntry(3, 2, 0.005)
