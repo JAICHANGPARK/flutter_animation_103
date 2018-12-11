@@ -62,6 +62,7 @@ class _MyHomePageState extends State<MyHomePage>
                   width: 200.0,
                   child: Transform(
                     transform: Matrix4.identity()
+                      ..setEntry(3, 2, 0.005)
                       ..rotateX(2 * pi * flip_anim.value),
                     alignment: Alignment.center,
                     child: Container(
